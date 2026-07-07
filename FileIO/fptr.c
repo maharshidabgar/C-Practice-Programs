@@ -3,7 +3,7 @@
 int main() {
 
     FILE *fptr;
-    fptr = fopen("test.txt", "r");
+    // fptr = fopen("test.txt", "r");
 
     char ch;
 
