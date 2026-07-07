@@ -3,19 +3,39 @@
 int main() {
 
     FILE *fptr;
+    fptr = fopen("test.txt", "r");
 
-    fptr = fopen("Newtest.txt", "r");
+    char ch;
 
-    if(fptr == NULL) {
+    fscanf(fptr, "%c", &ch);
+    printf("Character =  %c\n",ch);
 
-        printf("File DoesNot Exist...\n");
+    fscanf(fptr, "%c", &ch);
+    printf("Character =  %c\n",ch);
 
-    } else {
+    fscanf(fptr, "%c", &ch);
+    printf("Character =  %c\n",ch);
 
-        fclose(fptr);
+    fscanf(fptr, "%c", &ch);
+    printf("Character =  %c\n",ch);
 
-    }
+    fscanf(fptr, "%c", &ch);
+    printf("Character =  %c\n",ch);
+
+    fscanf(fptr, "%c", &ch);
+    printf("Character =  %c\n",ch);
+
+    fscanf(fptr, "%c", &ch);
+    printf("Character =  %c\n",ch);
+
+    fscanf(fptr, "%c", &ch);
+    printf("Character =  %c\n",ch);
+
+    fscanf(fptr, "%c", &ch);
+    printf("Character =  %c\n",ch);
     
+    fclose(fptr);
+
     return 0;
 
 }
