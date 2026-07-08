@@ -21,7 +21,7 @@ int main() {
 
     fprintf(fptr, "Student Name : %s\n", name);
     fprintf(fptr, "Student Age : %d\n", age);
-    fprintf(fptr, "Student CGPA : %f\n", cgpa);
+    fprintf(fptr, "Student CGPA : %f\n",  cgpa);
 
     fclose(fptr);
     return 0;
